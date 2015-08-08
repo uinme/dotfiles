@@ -42,7 +42,7 @@ set helpheight=999
 " ツールバーを非表示にする
 set guioptions-=T
 " カラーテーマ
-colorscheme Tomorrow
+colorscheme molokai
 
 
 "---------------------
@@ -51,9 +51,9 @@ colorscheme Tomorrow
 if has('mac')
   set guifont=Osaka-Mono:h14
 elseif has('win32')
-	set guifont=Ricty:h12
+	set guifont=Ricty\ Diminished:h12
 	" DirectWriteをオンにする
-	set renderoptions=type:directx,renmode:5
+	set renderoptions=type:directx,renmode:5,taamode:2,level:100,gamma:1.0
 elseif has('unix')
 	set guifont=Ricty\ 11
 endif
