@@ -20,7 +20,11 @@
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.
  " Note: You don't set neobundle setting in .gvimrc!
+ 
+ " Color shchemes
  NeoBundle 'chriskempson/vim-tomorrow-theme'
+ NeoBundle 'tomasr/molokai'
+ " Plugins
  NeoBundle 'itchyny/lightline.vim'
 
  call neobundle#end()

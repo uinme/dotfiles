@@ -53,7 +53,7 @@ if has('mac')
 elseif has('win32')
 	set guifont=Ricty\ Diminished:h12
 	" DirectWriteをオンにする
-	set renderoptions=type:directx,renmode:5,taamode:2,level:100,gamma:1.0
+	set renderoptions=type:directx,renmode:5,taamode:2,gamma:1.0
 elseif has('unix')
 	set guifont=Ricty\ 11
 endif
