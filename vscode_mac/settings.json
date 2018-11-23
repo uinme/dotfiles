@@ -11,5 +11,6 @@
     "editor.renderControlCharacters": true,
     "editor.cursorBlinking": "smooth",
     
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "workbench.startupEditor": "none"
 }
